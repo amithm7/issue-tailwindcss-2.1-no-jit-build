@@ -1,0 +1,25 @@
+{
+  "name": "issue-tailwindcss-2.1-no-jit-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production tailwindcss build styles.css -o build-styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amithm7/issue-tailwindcss-2.1-no-jit-build.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amithm7/issue-tailwindcss-2.1-no-jit-build/issues"
+  },
+  "homepage": "https://github.com/amithm7/issue-tailwindcss-2.1-no-jit-build#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "tailwindcss": "^2.1.1"
+  }
+}
